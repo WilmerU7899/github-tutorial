@@ -120,14 +120,22 @@ Port 443
 
 `git add`  -  adds any changes made in file to the stage to be committed.
 * This command could be used in various ways. You could choose what you want to add to the stage and what you don't want to add in the stage.
-    * `git add <file.ext>`  -  add the file(s) to the stage to be committed
-    * `git add .`  -  adds all files that have changes
+    * `git add <file.ext>`  -  add the file(s) to the stage to be committed (saved)
+    * `git add .`  -  adds all files that have changes to them
 
 
 `git commit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot.
 
 `git log` -  Allows you to see your past commits
 * Press Q to quit  
+
+`git push` -  Sends any changes from local repo “up” to the remote repo 
+
+`git pull` - Bring any changes from the remote repo “down” to the local repo
+
+`git remote -v` - Tells you where git push will send your commits
+
+* In other words its `git status` for your remote
 
 
 
