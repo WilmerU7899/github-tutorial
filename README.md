@@ -23,6 +23,8 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 ---
 ## Initial Setup
 
+1. Go to [Github.com](https://github.com/)  
+    a.  Click sign-up (If you're an hstat student use your hstat email to sign up and your osis number as your password)
 
 
 ---
@@ -36,7 +38,7 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 `git init` - Initializes git in our directory (now we call it repository) for version control - only do this in the beginning.  
 * While using `git init` keep in mind:
     * To do it in the directory you want to turn into repository 
-    * **NEVER TO DO IT IN ROOT DIRECTORY**
+    * **_NEVER TO DO IT IN ROOT DIRECTORY_**
 
 
 `git status`  -  Optional command to see what files have been edited sicne the last commit.
