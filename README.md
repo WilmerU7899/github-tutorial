@@ -14,7 +14,11 @@ In a short explanation, Git and Github manage your code and allows you to keep t
         * Keep a timeline of your code 
     * Most importantly it does not require Github
 
-
+* Github 
+    * It stores your code in the cloud
+    * You can visually track changes
+    * Makes it easy to collaborate on files
+    * Requires Git 
 
 ---
 ## Initial Setup
