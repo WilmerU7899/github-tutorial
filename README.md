@@ -32,9 +32,11 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 **Setup your ide to your Github:**
 1. Go to [ide.cs50.io](http://ide.cs50.io/)  
 2. If you haven't already done so click sign in or else skip this step
-3. When your in yor command line type git config --global user.email "you@example.com"  
-    A. **DO NOT COPY AND PASTE BECAUSE YOU NEED YOUR EMAIL**  
+3. When your in yor command line type `git config --global user.email "you@example.com"`  
+    A. **DO NOT COPY AND PASTE BECAUSE YOU NEED YOUR OWN EMAIL**  
     B.  Don't forget the quotes
+4. Then type ``git config --global user.name "Your Name"``
+
 
 ---
 ## Repository Setup
