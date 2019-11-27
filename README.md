@@ -95,10 +95,10 @@ Port 443
         * Type anything in the README.md file 
         * Now go back to your command line and type `git status`  
             * It should say "modified: README.md" in red
-            * In short terms this is just the computer telling you that there was some change in the ide. 
+            * In short terms this is just the computer telling you that there was some change in the file. 
         * After this in the command line type `git add .`
             * If you type `git status` after `git add .` it should say "modified: README.md" in green 
-            * All it means is that you have added it to the stage and you can now save it.
+            * All it means is that you have added it to the stage and you can now commit it (save it).
         * If green you can type in the command line `git commit -m "specific/short message"` 
             * Keep in mind this specific message describes the changes you made in the file.  
             * It also has to be short and in the present tense.
@@ -123,8 +123,9 @@ Port 443
     * `git add <file.ext>`  -  add the file(s) to the stage to be committed (saved)
     * `git add .`  -  adds all files that have changes to them
 
-
 `git commit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot.
+
+`git diff`  -  It check what changes made between the two last commits.
 
 `git log` -  Allows you to see your past commits
 * Press Q to quit  
