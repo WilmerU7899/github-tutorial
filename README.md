@@ -43,6 +43,19 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 1. Make sure that you're in your root directory. If you're not type `cd~` into your command line
 2. In the command line type `ssh-keygen -t rsa -b 4096 -C "you@example.com"` 
     a. Press enter *slowly* until you see 
+ * The key's randomart image is:  
++--[ RSA 4096]----+  
+|       .o o..    |  
+|       o +Eo     |  
+|        + .      |  
+|         . + o   |  
+|        S o = * o|  
+|           . o @.|  
+|            . = o|  
+|           . o   |  
+|            o.   |  
++-----------------+  
+
 
 ---
 ## Repository Setup
