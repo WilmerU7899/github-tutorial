@@ -87,7 +87,12 @@ There are two ways to make a repository via your ide or the Github.com site.
 
 * First lets learn how to do it straight off of your ide.
     * In the command line type `git init` for the directory you desire to turn into a directory 
-    * 
+        * **REMEMBER TO** `cd <filename>`
+        * You should now see in your command line (master). If you see this it means git is now active in the repository.
+    * Now you have to make a README.md file in the repository.       
+        * In the command line type `touch README.md`  
+        
+    * In this newly made file you can type anything you want and save it. This is where our two other commands `git add .` and `git commit -m "specific/short message`
 
 ---
 ## Workflow & Commands
