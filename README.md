@@ -47,7 +47,10 @@ In a short explanation, Git and Github manage your code and allows you to keep t
     * `git add .`  -  adds all files that have changes  
     
 
-`git commmit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot  
-`git log`
+`git commmit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot.  
+
+`git log` -  Allows you to see your past commits
+* Press Q to quit 
+
 ---
 ## Rolling Back Changes
