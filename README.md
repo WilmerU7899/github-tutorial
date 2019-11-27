@@ -33,7 +33,10 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 ---
 ## Workflow & Commands
 
-
-
+`git init`  
+`git status`  
+`git add`  
+`git commmit`  
+`git log`
 ---
 ## Rolling Back Changes
