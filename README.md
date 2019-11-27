@@ -92,8 +92,22 @@ There are two ways to make a repository via your ide or the Github.com site.
     * Now you have to make a README.md file in the repository.       
         * In the command line type `touch README.md`  
         
-    * In this newly made file you can type anything you want and save it. This is where our two other commands `git add .` and `git commit -m "specific/short message`
+    * In this newly made file you can type anything you want and save it. This is where our three other commands: `git add .` `git status` & `git commit -m "specific/short message`
+        * Type anything in the README.md file 
+        * Now go back to your command line and type `git status`  
+            * It should say "modified: README.md" in red
+            * In short terms this is just the computer telling you that there was some change in the ide. 
+        * After this in the command line type `git add .`
+            * If you type `git status` after `git add .` it should say "modified: README.md" in green 
+            * All it means is that you have added it to the stage and you can now save it.
+        * If green you can type in the command line `git commit -m "specific/short message"` 
+            * Keep in mind this specific message describes the changes you made in the file.  
+            * It also has to be short and in the present tense.
+            
+>After `git commit` it will save and now you can go make more changes. After any change you should always do `git add .` & `git commit` to keep track of your changes. 
 
+* Lets now learn how to make a repository off Github.com
+                
 ---
 ## Workflow & Commands
 
