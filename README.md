@@ -29,9 +29,7 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 > Github is where all your repositories in the cloud will be located. Here you can access it, see the changes and even create otehr repositories if you want
 * Congratulations you now have a github account!!!!   
 
-**Setup your ide to your Github:**
-
-_Setting up your user info:_
+**_Setting up your user info:**
 1. Go to [ide.cs50.io](http://ide.cs50.io/)  
 2. If you haven't already done so click sign in or else skip this step
 3.In your command line type `git config --global user.email "you@example.com"`  
@@ -39,11 +37,12 @@ _Setting up your user info:_
     B.  Don't forget the quotes
 4. Then type ``git config --global user.name "Your Name"``  
 
- _Generating and connecting an SSH key:_
+ **Generating and connecting an SSH key:**
 > An SSH allows you to upload your local (ide) to the remote (github) without the neccisity of having to sign in every time. 
 
 1. Make sure that you're in your root directory. If you're not type `cd~` into your command line
-
+2. In the command line type `ssh-keygen -t rsa -b 4096 -C "you@example.com"` 
+    a. Press enter *slowly* until you see 
 
 ---
 ## Repository Setup
