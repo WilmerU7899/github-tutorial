@@ -23,9 +23,11 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 ---
 ## Initial Setup
 
-1. Go to [Github.com](https://github.com/)  
-    a.  Click sign-up (If you're an hstat student use your hstat email to sign up and your osis number as your password)
-
+**Github:**
+* To first have a github account go to  [Github.com](https://github.com/)  
+    * Click sign-up (If you're an hstat student use your hstat email to sign up and your osis number as your password)
+> Github is where all your repositories in the cloud will be located. Here you can access it, see the changes and even create otehr repositories if you want
+* Congratulations you now have a github account 
 
 ---
 ## Repository Setup
