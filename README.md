@@ -39,9 +39,9 @@ In a short explanation, Git and Github manage your code and allows you to keep t
     * **NEVER TO DO IT IN ROOT DIRECTORY**
 
 
-`git status`  -  Optional command to see what files have been edited socne the last commit  
-`git add`  
-`git commmit`  
+`git status`  -  Optional command to see what files have been edited sicne the last commit  
+`git add`  -  
+`git commmit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot  
 `git log`
 ---
 ## Rolling Back Changes
