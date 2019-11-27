@@ -32,8 +32,8 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 **Setting up your user info:**
 1. Go to [ide.cs50.io](http://ide.cs50.io/)
 2. If you haven't already done so click sign in or else skip this step
-3. In your command line type `git config --global user.email "you@example.com"`
-    A. **DO NOT COPY AND PASTE BECAUSE YOU NEED YOUR OWN EMAIL**
+3. In your command line type `git config --global user.email "you@example.com"`  
+    A. **DO NOT COPY AND PASTE BECAUSE YOU NEED YOUR OWN EMAIL**  
     B.  Don't forget the quotes
 4. Then type ``git config --global user.name "Your Name"``
 
@@ -77,12 +77,17 @@ Port 443
 * `ssh -T git@github.com`
 * Type `yes`, press `ENTER`, and you should see
 >Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
-
-
+* Congratulations you are done connecting your ide with GitHub and the SSH key. You can now upload your repositories to the remote (Github) without having the need to sign in every time. 
 ---
 ## Repository Setup
 
+> A repository is a folder that you have git runnning in. This repository would be uploaded to the remote. Keep in mind all repositories are directories but not all directories are repositories. You may be wondering how would I make a repository then. Well follow the steps bellow to setup it up.
 
+There are two ways to make a repository via your ide or the Github.com site. 
+
+* First lets learn how to do it straight off of your ide.
+    * In the command line type `git init` for the directory you desire to turn into a directory 
+    * 
 
 ---
 ## Workflow & Commands
