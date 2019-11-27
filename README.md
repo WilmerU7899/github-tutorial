@@ -30,12 +30,19 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 * Congratulations you now have a github account!!!!   
 
 **Setup your ide to your Github:**
+
+_Setting up your user info:_
 1. Go to [ide.cs50.io](http://ide.cs50.io/)  
 2. If you haven't already done so click sign in or else skip this step
-3. When your in yor command line type `git config --global user.email "you@example.com"`  
+3.In your command line type `git config --global user.email "you@example.com"`  
     A. **DO NOT COPY AND PASTE BECAUSE YOU NEED YOUR OWN EMAIL**  
     B.  Don't forget the quotes
-4. Then type ``git config --global user.name "Your Name"``
+4. Then type ``git config --global user.name "Your Name"``  
+
+ _Generating and connecting an SSH key:_
+> An SSH allows you to upload your local (ide) to the remote (github) without the neccisity of having to sign in every time. 
+
+1. Make sure that you're in your root directory. If you're not type `cd~` into your command line
 
 
 ---
