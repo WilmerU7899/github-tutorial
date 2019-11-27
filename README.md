@@ -39,8 +39,14 @@ In a short explanation, Git and Github manage your code and allows you to keep t
     * **NEVER TO DO IT IN ROOT DIRECTORY**
 
 
-`git status`  -  Optional command to see what files have been edited sicne the last commit  
-`git add`  -  
+`git status`  -  Optional command to see what files have been edited sicne the last commit.
+
+`git add`  -  adds any changes made in file to the stage to be committed.  
+* This command could be used in variuos ways. You could choose what you want to add to the stage and what you don't want to add in the stage.
+    * `git add <file.ext>`  -  add the file(s) to the stage to be committed  
+    * `git add .`  -  adds all files that have changes  
+    
+
 `git commmit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot  
 `git log`
 ---
