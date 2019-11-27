@@ -40,23 +40,27 @@ In a short explanation, Git and Github manage your code and allows you to keep t
  **Generating and connecting an SSH key:**
 > An SSH allows you to upload your local (ide) to the remote (github) without the neccisity of having to sign in every time. 
 
-1. Make sure that you're in your root directory. If you're not type `cd~` into your command line
-2. In the command line type `ssh-keygen -t rsa -b 4096 -C "you@example.com"` 
-    a. Press enter *slowly* until you see 
- * The key's randomart image is:  
+*  Make sure that you're in your root directory. If you're not type `cd~` into your command line
+* In the command line type `ssh-keygen -t rsa -b 4096 -C "you@example.com"` 
+    * Press enter *slowly* until you see:
+``` 
+* The key's randomart image is:  
+
 +--[ RSA 4096]----+  
 |       .o o..    |  
 |       o +Eo     |  
 |        + .      |  
 |         . + o   |  
 |        S o = * o|  
-|           . o @.|  
-|            . = o|  
-|           . o   |  
-|            o.   |  
+|           . o @.|   
+|            . = o|   
+|           . o   |   
+|            o.   |   
 +-----------------+  
-
-
+```
+* `eval "$(ssh-agent -s)" `starts the agent in the background
+* `ls -al ~/.ssh` you should now see a file named id_rsa.pub
+* `cat ~/.ssh/id_rsa.pub `then copy all of the result to your clipboard (it should start with ssh-rsa and end with your email address)
 ---
 ## Repository Setup
 
