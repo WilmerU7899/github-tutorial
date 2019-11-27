@@ -83,7 +83,6 @@ Port 443
 
 > A repository is a folder that you have git runnning in. This repository would be uploaded to the remote. Keep in mind all repositories are directories but not all directories are repositories. You may be wondering how would I make a repository then. Well follow the steps bellow to setup it up.
 
-There are two ways to make a repository via your ide or the Github.com site. 
 
 * First lets learn how to do it straight off of your ide.
     * In the command line type `git init` for the directory you desire to turn into a directory 
@@ -106,10 +105,10 @@ There are two ways to make a repository via your ide or the Github.com site.
             
 >After `git commit` it will save and now you can go make more changes. After any change you should always do `git add .` & `git commit` to keep track of your changes. 
 
-* Lets now learn how to make a repository off Github.com
                 
 ---
 ## Workflow & Commands
+> You just used a lot of commands but you dont know what exactly they do. Well right bellow this is an explanation of each command you already used or may use in the future.
 
 `git init` - Initializes git in our directory (now we call it repository) for version control - only do this in the beginning.
 * While using `git init` keep in mind:
@@ -128,7 +127,18 @@ There are two ways to make a repository via your ide or the Github.com site.
 `git commit`  -  take a ‘snapshot’ of the files on the stage.  The message should be present-tense and describe what was modified in this snapshot.
 
 `git log` -  Allows you to see your past commits
-* Press Q to quit
+* Press Q to quit  
+
+
+
+**Lets now learn how to connect a repository with Github.com**
+
+1. Go to [github.com](https://github.com/Github.com)  (Sign in if needed).
+2. On the top right corner, you will see a *plus icon*, click on it. 
+3. Now click New repository
+4. Enter the name of the repository you want to make 
+5. Scroll down and make sure that "Initialize this repository with a README" is off 
+6. Go back to your ide and 
 
 ---
 ## Rolling Back Changes
