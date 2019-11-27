@@ -23,11 +23,18 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 ---
 ## Initial Setup
 
-**Github:**
+**Setup your Github:**
 * To first have a github account go to  [Github.com](https://github.com/)  
     * Click sign-up (If you're an hstat student use your hstat email to sign up and your osis number as your password)
 > Github is where all your repositories in the cloud will be located. Here you can access it, see the changes and even create otehr repositories if you want
-* Congratulations you now have a github account 
+* Congratulations you now have a github account!!!!   
+
+**Setup your ide to your Github:**
+1. Go to [ide.cs50.io](http://ide.cs50.io/)  
+2. If you haven't already done so click sign in or else skip this step
+3. When your in yor command line type git config --global user.email "you@example.com"  
+    A. **DO NOT COPY AND PASTE BECAUSE YOU NEED YOUR EMAIL**  
+    B.  Don't forget the quotes
 
 ---
 ## Repository Setup
