@@ -96,15 +96,34 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 `git pull` - Bring any changes from the remote repo “down” to the local repo
 * Should use if you worked on the remote repo instead of the local
 
-`git remote -v` - Tells you where git push or git pull will send your commits
-
-
 ###### Push
 
 1. Go to your local ide. (https://ide.cs50.io/)
     * Sign in if you need to do so
 2. Now the remember the name of the repository you want to push
+    * This repository must have a file already named "README.md"
     * This will be **very** important later on 
+3. Go to [github.com](https://github.com)
+4. Click on the plus icon
+5. Click on New Repository
+6. Enter the name of your repository from your ide
+    * This has to be identical or else it wont work
+7. Scroll down and make sure you have "Initialize this repository with a README" **OFF**.
+8. Click the green button _"Create Repository"_
+    * This will direct you to another page
+9. You will see code similar to this
+    * If you dont, make sure SSH key is turned on instead of HTTPS
+    
+```
+git remote add origin git@github.com:user_name/repository_name.git
+git push -u origin master
+```
+10. Copy the code from **YOUR** page and paste it in the command line
+11. Press enter
+
+> In simple words what you just did is set the location of where the ide is going to push. Now whenever you `git push` you the location set. If you ever want to know where exactly you're pushing or pulling type this command bellow:
+
+`git remote -v` - Tells you where git push or git pull will send your commits
 
 ---
 ## Rolling Back Changes
@@ -139,3 +158,5 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 * If you ever want to undo the edit, what you added and the commit type:
     * `git reset --hard HEAD file`
     * This will take you all the way to the beginning even before any edits.
+
+`git reset --hard [first nine digit of SHA]`- This command erases the commit you made from your remote. Its like _"Unpushing"_ a file.
