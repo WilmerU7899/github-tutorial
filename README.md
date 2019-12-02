@@ -93,8 +93,6 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 
 `git push` -  Sends any changes from local repo “up” to the remote repo 
 * Should be used constantly after each commit to have a back up of it
-`git pull` - Bring any changes from the remote repo “down” to the local repo
-* Should use if you worked on the remote repo instead of the local
 
 ###### Push
 
@@ -124,6 +122,11 @@ git push -u origin master
 > In simple words what you just did is set the location of where the ide is going to push. Now whenever you `git push` you the location set. If you ever want to know where exactly you're pushing or pulling type this command bellow:
 
 `git remote -v` - Tells you where git push or git pull will send your commits
+
+> On the other hand `git pull` you can use right away. It doesn't require long steps and a procedure to use. 
+
+`git pull` - Bring any changes from the remote repo “down” to the local repo
+* Should use if you worked on the remote repo instead of the local
 
 ---
 ## Rolling Back Changes
