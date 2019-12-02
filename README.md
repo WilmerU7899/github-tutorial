@@ -130,14 +130,13 @@ git push -u origin master
 
 > Everyone makes mistakes but its important to know how to undo what you do. 
 
-
-> That right there is a simple mistake but you also may edit, add and commit and then later change your mind about it. Its important to know how to undo each one of them individually.
-
 * If you ever do `git init` in a directory you didnt want to, tpye:  
     * `rm -rf .git`
         * This will unitialize git
+        
+> That right there is a simple mistake but you also may edit, add and commit and then later change your mind about it. Its important to know how to undo each one of them individually.
     
-* If you ever want to undo an edit of a file type:
+* If you ever want to undo an edit of file type:
     * `git checkout -- file`
     * This could come into use if you want to undo every single change you did in the file. 
     * Keep in mind this will only work if you havent added it yet.
@@ -159,4 +158,6 @@ git push -u origin master
     * `git reset --hard HEAD file`
     * This will take you all the way to the beginning even before any edits.
 
-`git reset --hard [first nine digit of SHA]`- This command erases the commit you made from your remote. Its like _"Unpushing"_ a file.
+* If you ever want to "Unpush" tpye:
+    * `git reset --hard [first nine digit of SHA]`
+    * This command erases the commit you made from your remote.
