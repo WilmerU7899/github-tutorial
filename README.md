@@ -46,7 +46,8 @@ In a short explanation, Git and Github manage your code and allows you to keep t
         * **REMEMBER TO** `cd <filename>`
         * You should now see in your command line (master). If you see this it means git is now active in the repository.
     * Now you have to make a README.md file in the repository.       
-        * In the command line type `touch README.md`  
+        * In the command line type `touch README.md` 
+            * In a "README.md file" instructions/description of the project gets presented.
         
     * In this newly made file you can type anything you want and save it. This is where our three other commands: `git add .` `git status` & `git commit -m "specific/short message`
         * Type anything in the README.md file 
