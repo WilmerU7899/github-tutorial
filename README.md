@@ -42,7 +42,7 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 
 
 * Lets learn how to do it straight off of your ide.
-    * In the command line type `git init` for the directory you desire to turn into a directory 
+    * In the command line type `git init` for the directory you desire to turn into a repository 
         * **REMEMBER TO** `cd <filename>`
         * You should now see in your command line (master). If you see this it means git is now active in the repository.
     * Now you have to make a README.md file in the repository.       
