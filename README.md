@@ -31,14 +31,14 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 * Congratulations you now have a GitHub account!!!!
 
 **Setting up your user info:**
-> Follow the steps in the link bellow to setup your github with your ide.
+> Follow the steps in the link below to setup your github with your ide.
 
 [github.com/hstatsep/ide50](https://github.com/hstatsep/ide50)
 
 ---
 ## Repository Setup
 
-> A repository is a folder that you have git runnning in. This repository would be uploaded to the remote. Keep in mind all repositories are directories but not all directories are repositories. You may be wondering how would I make a repository then. Well follow the steps bellow to setup it up.
+> A repository is a folder that you have git runnning in. This repository would be uploaded to the remote. Keep in mind all repositories are directories but not all directories are repositories. You may be wondering how would I make a repository then. Well follow the steps below to setup it up.
 
 
 * Lets learn how to do it straight off of your ide.
@@ -65,7 +65,7 @@ In a short explanation, Git and Github manage your code and allows you to keep t
                 
 ---
 ## Workflow & Commands
-> You just used a lot of commands but you dont know what exactly they do. Well right bellow this is an explanation of each command you already used or may use in the future.
+> You just used a lot of commands but you dont know what exactly they do. Well right below this is an explanation of each command you already used or may use in the future.
 
 `git init` - Initializes git in our directory (now we call it repository) for version control - only do this in the beginning.
 * While using `git init` keep in mind:
@@ -119,7 +119,7 @@ git push -u origin master
 10. Copy the code from **YOUR** page and paste it in the command line
 11. Press enter
 
-> In simple words what you just did is set the location of where the ide is going to push. Now whenever you `git push` you the location set. If you ever want to know where exactly you're pushing or pulling type this command bellow:
+> In simple words what you just did is set the location of where the ide is going to push. Now whenever you `git push` you the location set. If you ever want to know where exactly you're pushing or pulling type this command below:
 
 `git remote -v` - Tells you where git push or git pull will send your commits
 
