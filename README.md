@@ -163,5 +163,7 @@ git push -u origin master
     * This will take you all the way to the beginning even before any edits.
 
 * If you ever want to "Unpush" tpye:
-    * `git reset --hard [first nine digit of SHA]`
+    * `git reset --hard [first nine digits of SHA]`
     * This command erases the commit you made from your remote.
+    * If you want to figure out the first five nine digits of SHA use 
+        * `git log`
