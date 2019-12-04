@@ -42,28 +42,28 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 
 
 * Lets learn how to do it straight off of your ide.
-    * In the command line type `git init` for the directory you desire to turn into a repository 
+    * In the command line type `git init` for the directory you desire to turn into a repository
         * **REMEMBER TO** `cd <filename>`
         * You should now see in your command line (master). If you see this it means git is now active in the repository.
-    * Now you have to make a README.md file in the repository.       
-        * In the command line type `touch README.md` 
+    * Now you have to make a README.md file in the repository.
+        * In the command line type `touch README.md`
             * In a "README.md file" instructions/description of the project gets presented.
-        
-    * In this newly made file you can type anything you want and save it. This is where our three other commands: `git add .` `git status` & `git commit -m "specific/short message`
-        * Type anything in the README.md file 
-        * Now go back to your command line and type `git status`  
-            * It should say "modified: README.md" in red
-            * In short terms this is just the computer telling you that there was some change in the file. 
-        * After this in the command line type `git add .`
-            * If you type `git status` after `git add .` it should say "modified: README.md" in green 
-            * All it means is that you have added it to the stage and you can now commit it (save it).
-        * If green you can type in the command line `git commit -m "specific/short message"` 
-            * Keep in mind this specific message describes the changes you made in the file.  
-            * It also has to be short and in the present tense.
-            
->After `git commit` it will save and now you can go make more changes. After any change you should always do `git add .` & `git commit` to keep track of your changes. 
 
-                
+    * In this newly made file you can type anything you want and save it. This is where our three other commands: `git add .` `git status` & `git commit -m "specific/short message`
+        * Type anything in the README.md file
+        * Now go back to your command line and type `git status`
+            * It should say "modified: README.md" in red
+            * In short terms this is just the computer telling you that there was some change in the file.
+        * After this in the command line type `git add .`
+            * If you type `git status` after `git add .` it should say "modified: README.md" in green
+            * All it means is that you have added it to the stage and you can now commit it (save it).
+        * If green you can type in the command line `git commit -m "specific/short message"`
+            * Keep in mind this specific message describes the changes you made in the file.
+            * It also has to be short and in the present tense.
+
+>After `git commit` it will save and now you can go make more changes. After any change you should always do `git add .` & `git commit` to keep track of your changes.
+
+
 ---
 ## Workflow & Commands
 > You just used a lot of commands but you dont know what exactly they do. Well right below this is an explanation of each command you already used or may use in the future.
@@ -75,24 +75,24 @@ In a short explanation, Git and Github manage your code and allows you to keep t
 
 `git status`  -  A command that lets you see what files have been edited since the last commit. The ide will show you the color green if edits have been added ready to commit. On the other hand, if you haven't added the edits to the stage it will show up in red.
 
-`git add`  -  adds any changes made in file to the stage to be committed.
+`git add`  -  Adds any changes made in file to the stage to be committed.
 * This command could be used in various ways. You could choose what you want to add to the stage and what you don't want to add in the stage.
-    * `git add <file.ext>`  -  add a specefic file(s) to the stage to be committed (saved)
+    * `git add <file.ext>`  -  Add a specefic file(s) to the stage to be committed (saved)
     * `git add .`  -  adds all files that have changes in them
 
-`git commit -m "specific/short message`  -  take a ‘snapshot’ of the files on the stage. In other words this is like a save feature.  The message should be present-tense and describe what was modified in this snapshot.
+`git commit -m "specific/short message`  -  Take a ‘snapshot’ of the files on the stage. In other words this is like a save feature.  The message should be present-tense and describe what was modified in this snapshot. Use it after you added the file(s) to the stage
 
 > If you ever want to see the different commands youve done in the pasts the followingg two commands will help you.
 
 `git diff`  -  It check what changes made between the two last commits.
 
 `git log` -  Allows you to see your past commits
-* Press Q to quit  
+* Press Q to quit
 
-#### Pushing and Pulling 
+#### Pushing and Pulling
 > Once you want to push your commits from your local repo to your remote repo or vice versa the following commands will work. Keep in mind in other to use `git push` you will have to do some extra steps before putting it in use . Under these 3 commands, there will be instructions on how to begin using `git push`
 
-`git push` -  Sends any changes from local repo “up” to the remote repo 
+`git push` -  Sends any changes from local repo “up” to the remote repo
 * Should be used constantly after each commit to have a back up of it
 
 ###### Push
@@ -101,7 +101,7 @@ In a short explanation, Git and Github manage your code and allows you to keep t
     * Sign in if you need to do so
 2. Now the remember the name of the repository you want to push
     * This repository must have a file already named "README.md"
-    * This will be **very** important later on 
+    * This will be **very** important later on
 3. Go to [github.com](https://github.com)
 4. Click on the plus icon
 5. Click on New Repository
@@ -112,7 +112,7 @@ In a short explanation, Git and Github manage your code and allows you to keep t
     * This will direct you to another page
 9. You will see code similar to this
     * If you dont, make sure SSH key is turned on instead of HTTPS
-    
+
 ```
 git remote add origin git@github.com:user_name/repository_name.git
 git push -u origin master
@@ -124,7 +124,7 @@ git push -u origin master
 
 `git remote -v` - Tells you where git push or git pull will send your commits
 
-> On the other hand `git pull` you can use right away. It doesn't require long steps and a procedure to use. 
+> On the other hand `git pull` you can use right away. It doesn't require long steps and a procedure to use.
 
 `git pull` - Bring any changes from the remote repo “down” to the local repo
 * Should use if you worked on the remote repo instead of the local
@@ -132,26 +132,26 @@ git push -u origin master
 ---
 ## Rolling Back Changes
 
-> Everyone makes mistakes but its important to know how to undo what you do. 
+> Everyone makes mistakes but its important to know how to undo what you do.
 
-* If you ever do `git init` in a directory you didnt want to, tpye:  
+* If you ever do `git init` in a directory you didnt want to, tpye:
     * `rm -rf .git`
         * This will unitialize git
-        
+
 > That right there is a simple mistake but you also may edit, add and commit and then later change your mind about it. Its important to know how to undo each one of them individually.
-    
+
 * If you ever want to undo an edit of file type:
     * `git checkout -- file`
-    * This could come into use if you want to undo every single change you did in the file. 
+    * This could come into use if you want to undo every single change you did in the file.
     * Keep in mind this will only work if you havent added it yet.
 
 * If you ever want to undo what you added type:
     * `git reset HEAD file`
-    * This could come into use if you added the change to the stage and now have changed your mind 
-    
+    * This could come into use if you added the change to the stage and now have changed your mind
+
 * If you ever want to undo a commit type:
     * `git reset --soft HEAD file`
-    
+
 * If you ever want to undo both a commit and what you added tpye:
     * `git reset HEAD~1`
     * Keep in mind this will send you to the editing stage and undo both what you added and commited
